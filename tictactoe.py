@@ -28,6 +28,22 @@ if next_position == "1":
             print(". . .")
             print(". . .")
 
+        next_position = input("Please type what position: ")
+
+        if next_position == "1":
+            print("CANT DO THE MOVE")
+
+        elif next_position == "2":
+            print("CANT DO THE MOVE")
+
+        elif next_position == "3":
+            print("CANT DO THE MOVE")
+
+        elif next_position == "4":
+            print("x o x")
+            print("x . .")
+            print(". . .")
+
 elif next_position == "2":
     print(". x .")
     print(". . .")
